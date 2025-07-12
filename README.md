@@ -1,57 +1,47 @@
-# 🎨 Vision Air Canvas
-Vision Air Canvas is an innovative real-time computer vision application that lets users draw in mid-air using only their index finger and a webcam. It leverages **MediaPipe** for precise hand tracking and **OpenCV** to render strokes onto a virtual canvas — no stylus or touchscreen needed, just gestures and imagination!
+# 🎨 Vision-Project [AIR CANVAS]
+
+**Vision-Project-AIR-CANVAS-** is a real-time computer vision application that lets users draw in the air using only their index finger and a webcam. Built by [Jitendra0730](https://github.com/Jitendra0730), this project uses **MediaPipe** for hand tracking and **OpenCV** to visualize strokes on a virtual canvas — no stylus or touchscreen required. Just gestures and creativity!
 
 ---
 
-## 📌 Key Features
-  - 🖐 Hand gesture recognition via MediaPipe
+## 📌 Features
 
-  - 🎨 Real-time air drawing using finger motion
-
-  - 🖌 Color selection options (Blue, Green, Red, Yellow)
-
-  - 🧼 Gesture-based canvas clearing
-
-  - 🖥 Tkinter-based GUI for Start/Stop controls
-
-  - 💡 On-screen interactive buttons overlaid on video feed
+- 🖐 Real-time finger gesture recognition with MediaPipe
+- 🎨 Air drawing on a virtual canvas
+- 🖌 Color selection: Blue, Green, Red, Yellow
+- 🧼 Gesture to clear the canvas
+- 💡 On-screen interactive buttons for tools
+- 🖥 GUI control panel (Start/Stop) built with Tkinter
 
 ---
 
-## 🛠 Technology Stack
-  - **Python 3**
+## 🛠 Tech Stack
 
-  - **OpenCV**
+- **Python 3**
+- **OpenCV**
+- **MediaPipe**
+- **NumPy**
+- **Tkinter**
 
-  - **MediaPipe**
-
-  - **NumPy**
- 
-  - **Tkinter**
+---
 
 ## 🚀 How It Works
-1. **Hand Detection**: MediaPipe identifies and tracks hand landmarks, focusing on the index and thumb.
 
+1. **Hand Tracking**: MediaPipe detects and tracks key hand landmarks.
 2. **Drawing Mechanism**:
-
-  - Move the index finger to draw on the screen.
-
-  - Bring the thumb and index finger together to pause drawing.
-
-3. **On-Screen Controls**:
-
-  - Tap virtual buttons to change drawing colors.
-
-  - Clear the canvas with a gesture.
-
-4. **GUI Control Panel**: A Tkinter window lets you start or stop the application easily.
+   - Move the index finger to draw.
+   - Touch thumb and index finger to pause drawing.
+3. **On-Screen Buttons**:
+   - Tap drawn buttons to select colors or clear the canvas.
+4. **GUI Controller**:
+   - A Tkinter-based panel allows you to start or stop the drawing session.
 
 ---
 
-▶ Getting Started
-Clone the repository:
-  '''bash
-     git clone https://github.com/yourusername/Vision-Project-AIR-CANVAS-.git
-     cd vision-air-canvas
+## ▶ Getting Started
 
+### 📥 Clone the Repository
 
+```bash
+git clone https://github.com/Jitendra0730/Vision-Project-AIR-CANVAS-.git
+cd Vision-Project-AIR-CANVAS-
