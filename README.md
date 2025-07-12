@@ -45,3 +45,16 @@
 ```bash
 git clone https://github.com/Jitendra0730/Vision-Project-AIR-CANVAS-.git
 cd Vision-Project-AIR-CANVAS-
+```
+
+---
+
+## 👨‍💻 Authors
+
+### 🧠 Jitendra Chaudhary  
+- Final Year B.Tech in AI & ML  
+- GitHub: [@Jitendra0730](https://github.com/Jitendra0730)
+
+### 🧠 Bhavishya Chauhan 
+- Final Year B.Tech in AI & ML  
+- GitHub: [@bhavishya-11](https://github.com/bhavishya-11)
